@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import { GoArrowRight } from "react-icons/go";
 
@@ -13,7 +14,7 @@ const News = () => {
                             <h3 className="text-4xl md:text-7xl font-bold bebas">Cox's bazar</h3>
                             <p className="text-center md:text-left">Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
                             <div>
-                            <button className="btn primary-bg">Booking <span><GoArrowRight /></span></button>
+                            <Link to="/login"> <button className="btn primary-bg">Booking <span><GoArrowRight /></span></button> </Link>
                             
                             </div>
                         </div>
